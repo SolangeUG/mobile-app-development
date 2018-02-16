@@ -1,6 +1,6 @@
 # Mobile App Development
 
-[![MIT License](https://img.shields.io/badge/license-MIT%20License-green.svg)](https://github.com/SolangeUG/web-programming/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT%20License-green.svg)](https://github.com/SolangeUG/mobile-app-development/blob/master/LICENSE)
 [![JavaScript Language](https://img.shields.io/badge/language-JavaScript-F4D03F.svg)](https://www.javascript.com/)
 [![React Native Framework](https://img.shields.io/badge/framework-React%20Native-05A5D1.svg)](https://facebook.github.io/react-native/)
 
@@ -14,7 +14,7 @@ This is a collection of projects specified in the Harvard Extension School's [Mo
 
 ## Projects
 
-1. [TODO App](https://github.com/SolangeUG/mobile-development/tree/master/01-todo-app)
+1. [TODO App](https://github.com/SolangeUG/mobile-app-development/tree/master/01-todo-app)
 
 ## Resources
 
