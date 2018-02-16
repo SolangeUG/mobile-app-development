@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TODO App</title>
+    <title>ToDo List App</title>
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
   <body>
     <div class="container center">
-      <h1 class="center title">My TODO App</h1>
-      <div class="flow-right controls">
-        <span>Item count: <span id="item-count">0</span></span>
-        <span>Unchecked count: <span id="unchecked-count">0</span></span>
+      <!-- App header -->
+      <fieldset class="flow-right controls">
+        <img src="./todo_list.png"/>
+        <h1 class="center title">A ToDo List Web App</h1>
+        <table>
+          <tr>
+            <td>Total Items</td>
+            <td>Unchecked</td>
+          </tr>
+          <tr>
+            <td><span id="item-count">0</span></td>
+            <td><span id="unchecked-count">0</span></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <!-- Add new task -->
+      <button class="button" onClick="newTodo()">+</button>
+
+      <!-- Add detail to new task -->
+      <div id="form-container">
+        <!-- This is where the input form will appear -->
       </div>
-      <button class="button center" onClick="newTodo()">New TODO</button>
-      <ul id="todo-list" class="todo-list"></ul>
+
+      <!-- Display list of tasks -->
+      <ul id="todo-list" class="todo-list list-group"></ul>
     </div>
     <script src="./script.js"></script>
   </body>
