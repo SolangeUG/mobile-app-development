@@ -62,11 +62,22 @@ function getListItem(detail) {
   content.innerHTML = getTaskDetail(detail)
   content.classList.add(classNames.TODO_TEXT)
 
+  // create the delete button element
+  let delButton = document.createElement('button')
+  delButton.innerHTML = "OK"
+  delButton.classList.add(classNames.TODO_DELETE)
+  delButton.onclick = function() {
+    // TODO: delete this task's list item
+    updateListCounter(-1)
+    updateUncheckedCounter(-1)
+  }
+
   // create the container element
   let container = document.createElement('div')
   container.classList.add(classNames.TODO_ITEM)
   container.append(checkbox)
   container.append(content)
+  container.append(delButton)
 
   // create the list-item element
   let listItem = document.createElement('li')
