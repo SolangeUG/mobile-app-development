@@ -1,32 +1,32 @@
 # Mobile App Development
 
-[![MIT License](https://img.shields.io/badge/license-MIT%20License-green.svg)](https://github.com/SolangeUG/mobile-app-development/blob/master/LICENSE)
-[![JavaScript Language](https://img.shields.io/badge/language-JavaScript-F4D03F.svg)](https://www.javascript.com/)
-[![React Native Framework](https://img.shields.io/badge/framework-React%20Native-05A5D1.svg)](https://facebook.github.io/react-native/)
+[![MIT License](https://img.shields.io/badge/license-MIT%20License-green.svg)][0]
+[![JavaScript Language](https://img.shields.io/badge/language-JavaScript-F4D03F.svg)][1]
+[![React Native Framework](https://img.shields.io/badge/framework-React%20Native-05A5D1.svg)][2]
 
-This is a collection of projects specified in the Harvard Extension School's [Mobile App Development with React Native](https://cs50.github.io/mobile/) course.
+This is a collection of projects specified in the Harvard Extension School's [Mobile App Development with React Native][3] course.
 
 ## Languages - Libraries - Tools
 
-- [React Native](https://facebook.github.io/react-native/)
-- [JavaScript](https://www.javascript.com/)
-- Any code/text editor ([atom](https://atom.io/)) or IDE of your choice.
+- [React Native][2]
+- [JavaScript][4]
+- Any code/text editor ([atom][5]) or IDE of your choice.
 
 ## Projects
 
-1. [TODO App](https://github.com/SolangeUG/mobile-app-development/tree/master/01-todo-app)
+1. [TODO App][6]
 
 ## Resources
 
-- [Mobile App Development with React Native](https://cs50.github.io/mobile/)
+- [Mobile App Development with React Native][3]
 
 ## License
 
-[The MIT License (MIT)](https://opensource.org/licenses/MIT)
+[The MIT License (MIT)][7]
 
 ````
-Copyright (c) 2018 CS50.
-Copyright (c) 2018 Solange Umuhire Gasengayire.
+Copyright (c) 2022 CS50.
+Copyright (c) 2022 Solange Umuhire Gasengayire.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -47,3 +47,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ````
+
+[0]: https://github.com/SolangeUG/mobile-app-development/blob/master/LICENSE
+[1]: https://www.javascript.com/
+[2]: https://facebook.github.io/react-native/
+[3]: https://cs50.harvard.edu/mobile/2018/
+[4]: https://www.javascript.com/
+[5]: https://atom.io/
+[6]: https://github.com/SolangeUG/mobile-app-development/tree/master/01-todo-app
+[7]: https://opensource.org/licenses/MIT
